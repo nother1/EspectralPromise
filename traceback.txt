@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/Capitulos/capitulo1.rpy", line 22, in script
+    show lightning_flash with flash
+  File "game/Capitulos/capitulo1.rpy", line 22, in <module>
+    show lightning_flash with flash
+NameError: name 'flash' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/Capitulos/capitulo1.rpy", line 22, in script
+    show lightning_flash with flash
+  File "/home/nother/Games/renpy/renpy/ast.py", line 1370, in execute
+    paired = renpy.python.py_eval(self.paired)
+  File "/home/nother/Games/renpy/renpy/python.py", line 1215, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/home/nother/Games/renpy/renpy/python.py", line 1208, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/Capitulos/capitulo1.rpy", line 22, in <module>
+    show lightning_flash with flash
+NameError: name 'flash' is not defined
+
+Linux-6.13.6-zen1-1-zen-x86_64-with-glibc2.41 x86_64
+Ren'Py 8.3.6.25022803
+Espectral Promis 1.0
+Fri Mar 14 22:17:16 2025

@@ -1,0 +1,18 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/Capitulos/capitulo1.rpy", line 41: expected statement.
+    narrator pensamiento
+                        ^
+
+File "game/Capitulos/capitulo1.rpy", line 49: expected statement.
+    narrator pensamiento
+                        ^
+
+File "game/Capitulos/capitulo1.rpy", line 57: expected statement.
+    narrator pensamiento
+                        ^
+
+Ren'Py Version: Ren'Py 8.3.6.25022803
+Fri Mar 14 22:15:45 2025

@@ -9,6 +9,7 @@ define e = Character("Eileen")
 
 label start:
 
+    jump introduccion
     # Muestra una imagen de fondo: Aquí se usa un marcador de posición por
     # defecto. Es posible añadir un archivo en el directorio 'images' con el
     # nombre "bg room.png" or "bg room.jpg" para que se muestre aquí.
