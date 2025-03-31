@@ -1,113 +1,17 @@
-2025-03-15 03:15:44 UTC
-Linux-6.13.6-zen1-1-zen-x86_64-with-glibc2.41
-Ren'Py 8.3.6.25022803
+2025-03-31 02:57:12 UTC
+Linux-6.13.8-zen1-1-zen-x86_64-with-glibc2.41
+Ren'Py 8.3.7.25031702
 
 Early init took 0.05s
-Loading error handling took 0.63s
-Loading script took 0.28s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-
-File "game/Capitulos/capitulo1.rpy", line 41: expected statement.
-    narrator pensamiento
-                        ^
-
-File "game/Capitulos/capitulo1.rpy", line 49: expected statement.
-    narrator pensamiento
-                        ^
-
-File "game/Capitulos/capitulo1.rpy", line 57: expected statement.
-    narrator pensamiento
-                        ^
-DPI scale factor: 1.000000
-Interface start took 0.18s
-
-Initializing gl2 renderer:
-primary display bounds: (1920, 0, 1951, 1097)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Mesa Intel(R) UHD Graphics 630 (CFL GT2)'
-Version: b'4.6 (Compatibility Profile) Mesa 25.0.1-arch1.2'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1769, 995) drawable=(1769, 995)
-Could not open 'cache/shaders.txt':
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000002010000' 'XInput Controller' 1
-Resetting cache.
-Early init took 78.74s
 Loading error handling took 0.03s
-Loading script took 0.15s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.11s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.01s
-Index archives took 0.00s
-Backing up script files to '/home/nother/.renpy/backups/EspectralPromise':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.06s
-Analyze screens took 0.02s
-Save screen analysis took 0.19s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (1920, 0, 1951, 1097)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Mesa Intel(R) UHD Graphics 630 (CFL GT2)'
-Version: b'4.6 (Compatibility Profile) Mesa 25.0.1-arch1.2'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1769, 995) drawable=(1769, 995)
-Could not open 'cache/shaders.txt':
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000002010000' 'XInput Controller' 1
-
-Full traceback:
-  File "game/Capitulos/capitulo1.rpy", line 22, in script
-    show lightning_flash with flash
-  File "/home/nother/Games/renpy/renpy/ast.py", line 1370, in execute
-    paired = renpy.python.py_eval(self.paired)
-  File "/home/nother/Games/renpy/renpy/python.py", line 1215, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "/home/nother/Games/renpy/renpy/python.py", line 1208, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/Capitulos/capitulo1.rpy", line 22, in <module>
-    show lightning_flash with flash
-NameError: name 'flash' is not defined
-
-While running game code:
-  File "game/Capitulos/capitulo1.rpy", line 22, in script
-    show lightning_flash with flash
-  File "game/Capitulos/capitulo1.rpy", line 22, in <module>
-    show lightning_flash with flash
-NameError: name 'flash' is not defined
-Resetting cache.
-Early init took 129.46s
-Loading error handling took 0.02s
 Loading script took 0.08s
-Loading save slot metadata took 0.01s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 Running init code took 0.04s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.01s
 Index archives took 0.00s
-Backing up script files to '/home/nother/.renpy/backups/EspectralPromise':
 Dump and make backups took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -115,7 +19,136 @@ Initial gc took 0.04s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.37s
+
+Initializing gl2 renderer:
+primary display bounds: (1920, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Mesa Intel(R) UHD Graphics 630 (CFL GT2)'
+Version: b'4.6 (Compatibility Profile) Mesa 25.0.2-arch1.2'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000002010000' 'XInput Controller' 1
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1048) drawable=(1920, 1048)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/Capitulos/capitulo1.rpy", line 97, in script
+    if noticia == 'F':
+  File "/home/nother/Games/renpy/renpy/ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "/home/nother/Games/renpy/renpy/python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/home/nother/Games/renpy/renpy/python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/Capitulos/capitulo1.rpy", line 97, in <module>
+    if noticia == 'F':
+NameError: name 'noticia' is not defined
+
+While running game code:
+  File "game/Capitulos/capitulo1.rpy", line 97, in script
+    if noticia == 'F':
+  File "game/Capitulos/capitulo1.rpy", line 97, in <module>
+    if noticia == 'F':
+NameError: name 'noticia' is not defined
+Resetting cache.
+Early init took 40.29s
+Loading error handling took 0.02s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (1920, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Mesa Intel(R) UHD Graphics 630 (CFL GT2)'
+Version: b'4.6 (Compatibility Profile) Mesa 25.0.2-arch1.2'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1048) drawable=(1920, 1048)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000002010000' 'XInput Controller' 1
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1048) drawable=(1920, 1048)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/Capitulos/capitulo1.rpy", line 97, in script
+    if noticia == 'F':
+  File "/home/nother/Games/renpy/renpy/ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "/home/nother/Games/renpy/renpy/python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/home/nother/Games/renpy/renpy/python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/Capitulos/capitulo1.rpy", line 97, in <module>
+    if noticia == 'F':
+NameError: name 'noticia' is not defined
+
+While running game code:
+  File "game/Capitulos/capitulo1.rpy", line 97, in script
+    if noticia == 'F':
+  File "game/Capitulos/capitulo1.rpy", line 97, in <module>
+    if noticia == 'F':
+NameError: name 'noticia' is not defined
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 97.71s
+Loading error handling took 0.03s
+Loading script took 0.12s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/nother/.renpy/backups/EspectralPromise':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
@@ -124,19 +157,82 @@ Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.07s
+Interface start took 0.30s
 
 Initializing gl2 renderer:
-primary display bounds: (1920, 0, 1951, 1097)
+primary display bounds: (1920, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'Intel'"
 Renderer: b'Mesa Intel(R) UHD Graphics 630 (CFL GT2)'
-Version: b'4.6 (Compatibility Profile) Mesa 25.0.1-arch1.2'
+Version: b'4.6 (Compatibility Profile) Mesa 25.0.2-arch1.2'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1769, 995) drawable=(1769, 995)
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000002010000' 'XInput Controller' 1
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+
+Full traceback:
+  File "game/Capitulos/capitulo1.rpy", line 98, in script
+    if noticia == 'F':
+  File "/home/nother/Games/renpy/renpy/ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "/home/nother/Games/renpy/renpy/python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/home/nother/Games/renpy/renpy/python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/Capitulos/capitulo1.rpy", line 98, in <module>
+    if noticia == 'F':
+NameError: name 'noticia' is not defined
+
+While running game code:
+  File "game/Capitulos/capitulo1.rpy", line 98, in script
+    if noticia == 'F':
+  File "game/Capitulos/capitulo1.rpy", line 98, in <module>
+    if noticia == 'F':
+NameError: name 'noticia' is not defined
+Resetting cache.
+Early init took 137.54s
+Loading error handling took 0.02s
+Loading script took 0.09s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/nother/.renpy/backups/EspectralPromise':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (1920, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Mesa Intel(R) UHD Graphics 630 (CFL GT2)'
+Version: b'4.6 (Compatibility Profile) Mesa 25.0.2-arch1.2'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000002010000' 'XInput Controller' 1
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.01s
